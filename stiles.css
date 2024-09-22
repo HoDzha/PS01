@@ -1,0 +1,59 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #ffcccb;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #444;
+}
+
+.intro {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.cat-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cat-gallery img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.2s;
+}
+
+.cat-gallery img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #ffcccb;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
